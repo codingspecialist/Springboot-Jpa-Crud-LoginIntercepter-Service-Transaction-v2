@@ -1,4 +1,5 @@
-#### Springboot + JPA + CRUD + Login + Intercepter
+#### Springboot + JPA + CRUD
+#### Login, Logout, Join, Role, Intercepter, FileUpload
 
 #### 사용자 생성 및 권한 주기 및 DB 생성
 - create user 'ssar'@'%' identified by 'bitc5600';
@@ -41,6 +42,23 @@ spring:
       charset: UTF-8
       enabled: true
       force: true
+      
+      
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 1MB
+
+file:
+  path: C:/src/springWork/jpa-crud/src/main/resources/upload/
+  
+  
+  
+  
+  
+  
+  
+  
 ```
 
 ```xml
@@ -130,4 +148,3 @@ spring:
 </project>
 
 ```
-
