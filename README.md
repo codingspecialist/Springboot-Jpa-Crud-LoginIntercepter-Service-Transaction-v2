@@ -52,13 +52,6 @@ spring:
 file:
   path: C:/src/springWork/jpa-crud/src/main/resources/upload/
   
-  
-  
-  
-  
-  
-  
-  
 ```
 
 ```xml
