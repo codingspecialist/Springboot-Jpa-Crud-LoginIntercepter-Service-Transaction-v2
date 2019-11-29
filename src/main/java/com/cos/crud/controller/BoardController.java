@@ -30,7 +30,7 @@ public class BoardController {
 	@Autowired
 	private BoardService mService;
 
-	@PostMapping("/ict/{id}")
+	@PostMapping("/board/ict/{id}")
 	public @ResponseBody String increaseCountAndTimeUpdate(@PathVariable int id) {
 		mService.increaseCountAndTimeUpdate(id);
 		return "테스트 완료";
@@ -40,7 +40,7 @@ public class BoardController {
 	public String boardList(Model model) {	
 		List<Board> boards = mService.boardList();
 		model.addAttribute("boards", boards);
-		return "/board/list";
+		return "board/list";
 	}
 	
 	@GetMapping("/board/detail/{id}")
