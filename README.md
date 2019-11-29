@@ -1,4 +1,4 @@
-#### Springboot + JPA + CRUD
+#### Springboot + JPA + CRUD + Service + Transaction
 #### Login, Logout, Join, Role, Intercepter, FileUpload
 
 #### 사용자 생성 및 권한 주기 및 DB 생성
